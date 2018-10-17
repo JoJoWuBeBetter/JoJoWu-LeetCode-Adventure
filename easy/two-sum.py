@@ -1,5 +1,5 @@
 class Solution:
-    def twoSum(self. nums, target):
+    def twoSum(self, nums, target):
         """
         首答
         :type nums: List[int]
