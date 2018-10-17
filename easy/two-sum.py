@@ -29,6 +29,7 @@ class Solution:
                 if target - num1 == num2:
                     return [index1, index2 + index1 + 1]
 
+
 class Solution:
     def twoSum(self, nums, target):
         """
