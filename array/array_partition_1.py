@@ -20,4 +20,4 @@ class Solution:
         :type nums: List[int]
         :rtype: int
         """
-        return sum(sorted(A)[::2]) 
+        return sum(sorted(A)[::2])
