@@ -12,3 +12,12 @@ class Solution:
             c += nums[i]
             i += 2
         return c
+
+class Solution:
+    def arrayPairSum(self, nums):
+        """
+        优秀答案
+        :type nums: List[int]
+        :rtype: int
+        """
+        return sum(sorted(A)[::2])
