@@ -10,3 +10,12 @@ class Solution:
             for i , v2 in enumerate(v1):
                 a[i].append(v2)
         return a
+
+class Solution:
+    def transpose(self, A):
+        """
+        优秀答案
+        :type A: List[List[int]]
+        :rtype: List[List[int]]
+        """
+        return [each for each in zip(*A)]
