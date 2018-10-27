@@ -18,4 +18,4 @@ class Solution:
         :type A: List[List[int]]
         :rtype: List[List[int]]
         """
-        return [list(each) for each in zip(*A)]
+        return list(zip(*A))
